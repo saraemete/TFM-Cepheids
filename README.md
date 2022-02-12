@@ -60,7 +60,7 @@ Los paquetes de terceros de Python que deben tener instalados para la ejecución
 
 
 
-## Estructura del repositorio 📋 
+## Estructura del repositorio 📋  
 
 ### Gráficos
 
@@ -69,16 +69,19 @@ Los gráficos de todas las galaxias mostrados en el trabajo se han determinado m
 
 ### Metodología
 
-Los pasos especificados en la [descripción](https://github.com/saramunoztorres/TFM-Cepheids#breve-descripci%C3%B3n) se ejecutan en códigos individuales para cada galaxia, que se encuentran dentro de las respectivas carpetas. Estos se ordenan tal que:
+Los pasos especificados en la descripción del trabajo se ejecutan en códigos individuales para cada galaxia, que se encuentran dentro de las respectivas carpetas. Estos se ordenan tal que[^1]:
 
-- Los puntos 1 y 2 están dentro del código `extract_spectrum_x.ipynb`. El output de este código, que a su vez es input para *STARLIGHT* (a expectión del archivo `m_Riess.txt`) se guarda en la respectiva subcarpeta `\emited_spectrum` con la extensión `.txt`
-- El punto 3 queda fuera de este repositorio, pero los resultados de la síntesis se encuentran en las subcarpetas `\emited_spectrum` con la extensión `.BN`
-- Los puntos 4, y 5 se encuentran en el código `adj_spectrum_x.ipynb`, cuyos inputs son los archivos de la respectiva subcarpeta `\emited_spectrum` y los outputs se guardan en la subcarpeta `\adjusted_spectrum`
-- Finalmente, los puntos 6 y 7 se ejecutan con el código `metallicity_calculate_x.ipynb`, que tiene como input el archivo `flujos.txt` generado en el código anterior y almacenado en la subcarpeta `\adjusted_spectrum`, y los outputs son los archivos `.txt` con la información de las metalicidades determinadas y sus errores.
+- Los pasos 1 y 2 están dentro del código `extract_spectrum_x.ipynb`. El output de este código, que a su vez es input para *STARLIGHT* (a expectión del archivo `m_Riess.txt`) se guarda en la respectiva subcarpeta `\emited_spectrum` con la extensión `.txt`
+- El paso 3 queda fuera de este repositorio, pero los resultados de la síntesis se encuentran en las subcarpetas `\emited_spectrum` con la extensión `.BN`
+- Los pasos 4, y 5 se encuentran en el código `adj_spectrum_x.ipynb`, cuyos inputs son los archivos de la respectiva subcarpeta `\emited_spectrum` y los outputs se guardan en la subcarpeta `\adjusted_spectrum`
+- Finalmente, los pasos 6 y 7 se ejecutan con el código `metallicity_calculate_x.ipynb`, que tiene como input el archivo `flujos.txt` generado en el código anterior y almacenado en la subcarpeta `\adjusted_spectrum`, y los outputs son los archivos `.txt` con la información de las metalicidades determinadas y sus errores que se guardan en la carpeta base de cada galaxia.
 
-La *x* se refiere a la respectiva galaxia. Dentro de los archivos se encuentran descritos los códigos en mayor profundidad. Por otro lado, las posiciones de las Cefeidas, cribadas entre los códigos `extract_spectrum_x.ipynb` y  `galaxies_graphics.ipynb`, se guardan en la carpeta base de cada galaxia como `cefeidasx_final.txt`, así como las metalicidades del proyecto SH0ES, `met_x_Riess.txt`, que se criban en los códigos `extract_spectrum_x.ipynb` y `metallicity_calculate_x.ipynb`.
+Dentro de los archivos se encuentran descritos los códigos en mayor profundidad. Por otro lado, las posiciones de las Cefeidas, cribadas entre los códigos `extract_spectrum_x.ipynb` y  `galaxies_graphics.ipynb`, se guardan en la carpeta base de cada galaxia como `cefeidasx_final.txt`, así como las metalicidades del proyecto SH0ES, `met_x_Riess.txt`, que se criban en los códigos `extract_spectrum_x.ipynb` y `metallicity_calculate_x.ipynb`.
 
 
 ### Resultados y discusión
 
 Finalmente, en el código `results_discussion.ipynb` se encuentran los gráficos y cálculos finales para obtener los resultados de la galaxia NGC 7250, así como los empleados en la discusión este trabajo. Los archivos de la rama principal `tabla_final.csv`, `tabla_final.txt` y `pos_met_latex.txt` son obtenidos en este código. Los dos primeros guardan la información de las metalicidades calculas en las distintas calibraciones con los respectivos errores, mientras que el último tiene la información relativa a la metalicidad en cada posición (en RA y DEC).
+
+
+[^1]: La *x* se refiere a la respectiva galaxia. 
