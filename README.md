@@ -1,6 +1,6 @@
 # TFM-Cepheids
 
-A continuación se detalla el contenido de este repositorio, perteneciente al Trabajo de Fin de Máster de Sara Muñoz Torres, titulado "".
+A continuación se detalla el contenido de este repositorio, perteneciente al Trabajo de Fin de Máster de Sara Muñoz Torres, titulado "Testeo de la calibración de estrellas Cefeidas con la metalicidad en las galaxias del proyecto SH0ES".
 
 
 ## Breve descripción 📖
@@ -38,7 +38,7 @@ NGC7250_new/ NGC7250_new.V500.rscube.fits
              ic130c020_drz.fits
              
 UGC09391/ UGC09391.V500.rscube.fits
-          ic1360uzq_drz.fits
+          hst_12880_59_wfc3_uvis_f555w_sci.fits
           adj_spectrum_UGC9391.ipynb
 ```          
 
@@ -84,4 +84,4 @@ Dentro de los archivos se encuentran descritos los códigos en mayor profundidad
 Finalmente, en el código `results_discussion.ipynb` se encuentran los gráficos y cálculos finales para obtener los resultados de la galaxia NGC 7250, así como los empleados en la discusión este trabajo. Los archivos de la rama principal `tabla_final.csv`, `tabla_final.txt` y `pos_met_latex.txt` son obtenidos en este código. Los dos primeros guardan la información de las metalicidades calculas en las distintas calibraciones con los respectivos errores, mientras que el último tiene la información relativa a la metalicidad en cada posición (en RA y DEC).
 
 
-[^1]: La *x* se refiere a la respectiva galaxia. 
+[^1]: La x hace referencia a la respectiva galaxia
