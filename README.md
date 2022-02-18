@@ -1,6 +1,6 @@
 # TFM-Cepheids
 
-A continuación se detalla el contenido de este repositorio, perteneciente al Trabajo de Fin de Máster de Sara Muñoz Torres, titulado "Testeo de la calibración de estrellas Cefeidas con la metalicidad en las galaxias del proyecto SH0ES".
+A continuación se detalla el contenido de este repositorio, perteneciente al Trabajo de Fin de Máster de Sara Muñoz Torres, titulado "**Testeo de la calibración de estrellas Cefeidas con la metalicidad en las galaxias del proyecto SH0ES**".
 
 
 ## Breve descripción 📖
